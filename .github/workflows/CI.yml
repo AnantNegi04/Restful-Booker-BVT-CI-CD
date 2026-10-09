@@ -3,7 +3,7 @@
 name: "Newman Tests"
 on: [push, pull_request]
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
     container:
